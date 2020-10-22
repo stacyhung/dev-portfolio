@@ -10,6 +10,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/481308c503.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,10 +25,10 @@
         </button>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#home">Home</a></li>
-                <li class="nav-item"><a href="#services">Services</a></li>
-                <li class="nav-item"><a href="#about">About Me</a></li>
-                <li class="nav-item"><a href="#work">My Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">My Work</a></li>
             </ul>
         </nav>
     </header>
@@ -68,7 +70,7 @@
     <!-- About me-->
     <section class="about-me" id="about">
         <h2 class="section-title">Who I am</h2>
-        <p class="section-subtitle">Designer & developer based out of Vancouver</p>
+        <p class="section-subtitle">Bioinformatician and aspiring front-end developer</p>
         <div class="about-content">
 
             <p>I'm currently a Bioinformatics Scientist at the BC Cancer Research Center in beautiful Vancouver, Canada.
@@ -90,9 +92,9 @@
     </section>
 
     <!-- My work-->
-    <div class="portfolio-container">
+    <section class="my-work">
         <h2 class="section-title">My work</h2>
-        <p class="section-subtitle">A selection of my range of work</p>
+        <h3 class="section-subtitle">A selection of my range of work</h3>
 
         <div class="portfolio">
             <!-- Portfolio item 1 -->
@@ -112,7 +114,7 @@
 
             <!-- Portfolio item 4 -->
             <a href="#" class="portfolio-item">
-                <img src="img/scRNAseq-clusters.jpg" alt="" class="portfolio-img" />
+                <img src="img/phd_thesis.png" alt="" class="portfolio-img" />
             </a>
 
             <!-- Portfolio item 5 -->
@@ -126,18 +128,36 @@
             </a>
 
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
     <footer>
-        <a href="mailto: sshung@gmail.com" sshung at gmail.com></a>
-        <ul class="social-media-container">
-            <li class="social-list-item"><a href="#">a</a></li>
-            <li class="social-list-item"><a href="#">b</a></li>
-            <li class="social-list-item"><a href="#">c</a></li>
-            <li class="social-list-item"><a href="#">d</a></li>
+        <a class="footer-email" href="mailto:sshung@gmail.com" sshung at gmail.com>sshung at gmail dot com</a>
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://github.com/stacyhung" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.linkedin.com/in/stacyshung" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://twitter.com/Stacy_S_Hung" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+            <li class="social-list-item">
+                <a class="social-list-link" href="https://www.facebook.com/stacysusanhung" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+
         </ul>
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
