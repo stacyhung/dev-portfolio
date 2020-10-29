@@ -382,6 +382,7 @@ nav {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
 }
 
 .portfolio-item {
@@ -395,10 +396,6 @@ nav {
 }
 
 .portfolio-img {
-    /* background-color: #540366;
-    background-blend-mode: multiply; */
-    /* width: 300px; */
-    /* height: 300px; */
     object-fit: cover;
     transition: 
         transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
