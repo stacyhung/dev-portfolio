@@ -387,12 +387,7 @@ nav {
 
 .portfolio-item {
     background: var(--clr-accent);
-    /* height: 300px; */
-    /* width: 300px; */
-    overflow: hidden;
-    /* margin: 3px; */
-    
-    
+    overflow: hidden;  
 }
 
 .portfolio-img {
